@@ -1,0 +1,21 @@
+{% capture content %}
+<header>
+    <nav class="navbar navbar-full navbar-dark bg-inverse">
+	<div class="container">
+	    <a class="navbar-brand" href="{{site.baseurl}}/">Grand STC Foosball Tournament</a>
+	    <ul class="nav navbar-nav  pull-xs-right">
+		<li class="nav-item">
+		    <a class="nav-link" href="{{site.baseurl}}/rules">Rules</a>
+		</li>
+		<li class="nav-item">
+		    <a class="nav-link" href="https://github.com/stc-foosball/stc-foosball.github.io">Edit</a>
+		</li>
+	    </ul>
+	</div>
+    </nav>
+</header>
+
+{{ content }}
+
+{% endcapture %}
+{% include main.html %}
